@@ -1,0 +1,20 @@
+{
+    "name": "specialdragonfly/container",
+    "description": "A very very simple container",
+    "type": "library",
+    "require": {
+        "psr/container": "^1.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dominic Orme",
+            "email": "github@dominicorme.me.uk"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Container\\": "src"
+        }
+    }
+}
